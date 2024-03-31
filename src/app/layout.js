@@ -14,14 +14,16 @@ export default function RootLayout({ children }) {
 		<html lang='en'>
 			<ChakraProvider>
 				<VStack
-					position={'fixed'}
-					zIndex={-1}
-					top={0}
-					flex={1}
-					minH={'100vh'}
-					w={'100vw'}
+					flex={'1'}
+					alignItems={'stretch'}
+					as='body'
+					minW='100vw'
+					maxW={'100vw'}
+					spacing='0'
 					bg={'white'}
-					color={'black'}
+					p={'0'}
+					overflowX={'hidden'}
+					minH={'100vh'}
 				>
 					<body className={inter.className}>{children}</body>
 				</VStack>

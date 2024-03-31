@@ -5,7 +5,7 @@ import { HStack, Heading, Image, Spacer, Text, VStack } from '@chakra-ui/react'
 function Header() {
 	return (
 		<VStack bg={'white'} spacing={0} flex={1}>
-			<HStack flex={1} p={2} px={6} width={'100vw'} color={'gray.500'} spacing={4}>
+			<HStack flex={1} p={2} px={6} w={'100vw'} color={'gray.500'} spacing={4}>
 				<VStack spacing={1}>
 					<GiLotus color='gray' fontSize={32} />
 					<Heading
