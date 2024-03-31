@@ -3,8 +3,8 @@ import React from 'react'
 
 function Hero() {
 	return (
-		<VStack flex={1}>
-			<Image p={4} maxH={{ md: 500 }} alt='image of crystals' src={'/crystals.jpg'}></Image>
+		<VStack flex={1} spacing={0}>
+			<Image alt='image of crystals' src={'/crystals.jpg'}></Image>
 			<Text>
 				Photo by Olha Ruskykh:
 				{/* https://www.pexels.com/photo/close-up-photo-of-crystal-stones-on-a-person-s-hand-6954663/ */}

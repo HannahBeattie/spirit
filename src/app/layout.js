@@ -23,7 +23,6 @@ export default function RootLayout({ children }) {
 					bg={'white'}
 					p={'0'}
 					overflowX={'hidden'}
-					minH={'100vh'}
 				>
 					<body className={inter.className}>{children}</body>
 				</VStack>
