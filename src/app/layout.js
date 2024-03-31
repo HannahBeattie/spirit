@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
 					flex={1}
 					minH={'100vh'}
 					w={'100vw'}
-					bg={'gray.200'}
+					bg={'white'}
 					color={'black'}
 				>
 					<body className={inter.className}>{children}</body>
