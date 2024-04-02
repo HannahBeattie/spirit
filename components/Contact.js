@@ -18,8 +18,8 @@ function Contact() {
 			<HStack>
 				<Image shadow={'xl'} borderRadius={200} maxW={300} alt='healer' src='/face.jpg' />
 				<VStack flex={1}>
-					<Heading fontSize={'2xl'} letterSpacing={4} fontWeight={500} color={'#92b094'}>
-						Hello, my name is [name]
+					<Heading fontSize={'2xl'} letterSpacing={4} fontWeight={500} color={'#ebb513'}>
+						Hello, my name is Hannah Joy
 					</Heading>
 					<Card bg={'white'} p={4}>
 						<HStack>
@@ -40,7 +40,7 @@ function Contact() {
 								<Button
 									shadow={'xl'}
 									color={'white'}
-									bg={'#92b094'}
+									bg={'gray.400'}
 									_hover={{ bg: 'gray.500' }}
 									fontSize={'xl'}
 									fontWeight={500}
