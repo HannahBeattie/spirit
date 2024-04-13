@@ -1,10 +1,23 @@
 'use client'
-import React from 'react'
-import { GiLotus } from 'react-icons/gi'
-import { Box, HStack, Heading, Link, MenuItem, Spacer, Text, VStack } from '@chakra-ui/react'
-import StyledNextLink from '@/app/base/StyledNextLink'
-import { NavItems } from './content/NavItems'
+
+import { AddIcon, HamburgerIcon } from '@chakra-ui/icons'
+import {
+	Box,
+	HStack,
+	Heading,
+	IconButton,
+	Menu,
+	MenuButton,
+	MenuItem,
+	MenuList,
+	Spacer,
+	Text,
+	VStack,
+} from '@chakra-ui/react'
 import { useRouter } from 'next/navigation'
+import { FaBuildingWheat } from 'react-icons/fa6'
+import { NavItems } from './content/NavItems'
+import StyledNextLink from '@/app/base/StyledNextLink'
 
 const pages = NavItems
 
@@ -13,27 +26,27 @@ function Header() {
 	const currentRoute = router.pathname
 
 	return (
-		<VStack bg={'white'} spacing={0} flex={1}>
+		<VStack bg={'black'} spacing={0} flex={1}>
 			<HStack flex={1} p={2} px={6} w={'100vw'} color={'gray.500'} spacing={4}>
 				<StyledNextLink href={'/'}>
 					<VStack spacing={1}>
-						<GiLotus color='gray' fontSize={32} />
-
+						<FaBuildingWheat color='white' fontSize={32} />
 						<Heading
-							fontWeight={200}
-							color={'gray.300'}
-							fontFamily={'Satisfy'}
+							fontWeight={300}
+							color={'gray.100'}
 							fontSize={{ base: 'md', lg: '3xl' }}
 						>
-							Hannah Joy
+							Real Estate
 						</Heading>
 					</VStack>
 				</StyledNextLink>
 				<Spacer />
+
 				{pages.map(({ href, title }, idx) => (
-					<Box key={`navitem-${idx}`}>
+					<Box key={`navitem-${idx}`} display={{ base: 'none', md: 'flex' }}>
 						<StyledNextLink
 							href={href}
+							color={'white'}
 							fontSize={{ md: 'lg' }}
 							fontFamily={'SF Pro'}
 							fontWeight={href === currentRoute ? '600' : '400'}
