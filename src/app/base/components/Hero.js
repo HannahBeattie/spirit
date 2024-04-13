@@ -1,12 +1,22 @@
-import { Container, HStack, Heading, Image, Text, VStack } from '@chakra-ui/react'
+import { Container, HStack, Heading, Image, Stack, Text, VStack } from '@chakra-ui/react'
 import React from 'react'
 
 function Hero() {
 	return (
-		<HStack flex={1} spacing={0} color={'black'}>
+		<Stack
+			alignContent={'center'}
+			justify={'center'}
+			justifyItems={'center'}
+			justifySelf={'center'}
+			alignItems={'center'}
+			direction={{ base: 'column', sm: 'row' }}
+			flex={1}
+			spacing={0}
+			color={'black'}
+		>
 			<Container
 				bg={'white'}
-				pos={'absolute'}
+				pos={{ sm: 'absolute' }}
 				right={0}
 				p={8}
 				opacity={'90%'}
@@ -19,7 +29,7 @@ function Hero() {
 				<Text>And another goes here. It is some more text.</Text>
 			</Container>
 			<Image src={'/house.jpg'} alt='house'></Image>
-		</HStack>
+		</Stack>
 	)
 }
 

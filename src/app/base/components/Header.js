@@ -3,6 +3,8 @@
 import { AddIcon, HamburgerIcon } from '@chakra-ui/icons'
 import {
 	Box,
+	Button,
+	Center,
 	HStack,
 	Heading,
 	IconButton,
@@ -18,6 +20,7 @@ import { useRouter } from 'next/navigation'
 import { FaBuildingWheat } from 'react-icons/fa6'
 import { NavItems } from './content/NavItems'
 import StyledNextLink from '@/app/base/StyledNextLink'
+import { GiHamburgerMenu } from 'react-icons/gi'
 
 const pages = NavItems
 
@@ -41,7 +44,31 @@ function Header() {
 					</VStack>
 				</StyledNextLink>
 				<Spacer />
-
+				<Menu>
+					<MenuButton
+						pos={'absolute'}
+						right={8}
+						display={{ base: 'flex', md: 'none' }}
+						as={IconButton}
+						aria-label='Options'
+						icon={<HamburgerIcon />}
+						variant='outline'
+					/>
+					<MenuList>
+						{pages.map(({ href, title }, idx) => (
+							<StyledNextLink
+								key={`navitem2-${idx}`}
+								href={href}
+								color={'white'}
+								fontSize={{ md: 'lg' }}
+								fontFamily={'SF Pro'}
+								fontWeight={href === currentRoute ? '600' : '400'}
+							>
+								<MenuItem>{title}</MenuItem>
+							</StyledNextLink>
+						))}
+					</MenuList>
+				</Menu>
 				{pages.map(({ href, title }, idx) => (
 					<Box key={`navitem-${idx}`} display={{ base: 'none', md: 'flex' }}>
 						<StyledNextLink
