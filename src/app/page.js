@@ -9,8 +9,8 @@ export default function Home() {
 	return (
 		<VStack as={'main'}>
 			<Hero />
-			{/* <Intro />
-			<Contact /> */}
+			<Intro />
+			<Contact />
 		</VStack>
 	)
 }

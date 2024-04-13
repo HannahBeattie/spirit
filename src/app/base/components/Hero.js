@@ -13,9 +13,7 @@ function Hero() {
 				boxShadow='md'
 				borderLeftRadius={{ sm: 20 }}
 			>
-				<Heading fontSize={{ base: '3xl', sm: '5xl', lg: '6xl' }}>
-					There is no place like home.
-				</Heading>
+				<Heading>There is no place like home.</Heading>
 				<Text>Feel confident with real estate like no other.</Text>
 				<Text>Another line of text here. Like this.</Text>
 				<Text>And another goes here. It is some more text.</Text>
