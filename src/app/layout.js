@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
 						spacing='0'
 						bg={'white'}
 						p={'0'}
-						overflowX={'hidden'}
+						overflow={'hidden'}
 					>
 						<Header />
 						{children}

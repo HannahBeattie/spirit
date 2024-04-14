@@ -4,6 +4,7 @@ import React from 'react'
 function Hero() {
 	return (
 		<Stack
+			maxW={'100vw'}
 			alignContent={'center'}
 			justify={'center'}
 			justifyItems={'center'}
@@ -28,7 +29,9 @@ function Hero() {
 				<Text>Another line of text here. Like this.</Text>
 				<Text>And another goes here. It is some more text.</Text>
 			</Container>
-			<Image src={'/house.jpg'} alt='house'></Image>
+			<VStack overflow={'hidden'}>
+				<Image maxW={'100vw'} src={'/house.jpg'} alt='house'></Image>
+			</VStack>
 		</Stack>
 	)
 }
