@@ -49,16 +49,15 @@ function Header() {
 			animate={hidden ? 'hidden' : 'visible'}
 			transition={{ duration: 0.35, ese: 'easeInOut' }}
 		>
-			<VStack overflow={'hidden'}>
+			<VStack bg={'black'} flex={1}>
 				<HStack
-					bg={'black'}
-					width={'100vw'}
-					flex={1}
 					alignContent={'end'}
 					spacing={4}
+					maxWidth={'100vw'}
+					width={'100vw'}
 					px={4}
 					py={2}
-					maxWidth={'100vw'}
+					overflow={'hidden'}
 				>
 					<StyledNextLink href={'/'}>
 						<VStack spacing={1}>
@@ -76,10 +75,10 @@ function Header() {
 					<Menu>
 						<MenuButton
 							pos={'absolute'}
-							right={8}
 							display={{ base: 'flex', md: 'none' }}
 							as={IconButton}
 							aria-label='Options'
+							right={0}
 							icon={<HamburgerIcon />}
 							variant='outline'
 						/>
