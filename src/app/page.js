@@ -7,7 +7,7 @@ import Intro from './base/components/Intro'
 export default function Home() {
 	// return null
 	return (
-		<VStack as={'main'}>
+		<VStack as={'main'} maxW={'100%vw'} overflow={'hidden'}>
 			<Hero />
 			<Intro />
 			<Contact />

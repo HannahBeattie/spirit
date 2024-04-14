@@ -16,8 +16,8 @@ export default function RootLayout({ children }) {
 					<VStack
 						flex={'1'}
 						alignItems={'stretch'}
-						minW='100vw'
-						maxW={'100vw'}
+						minW='100%vw'
+						maxW={'100%vw'}
 						spacing='0'
 						bg={'white'}
 						p={'0'}
