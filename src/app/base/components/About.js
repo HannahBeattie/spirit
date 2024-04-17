@@ -17,12 +17,16 @@ import React from 'react'
 function About() {
 	return (
 		<Stack
-			py={{ med: 10 }}
+			width={'100vw'}
+			bg={'gray.200'}
 			alignItems={'center'}
 			flex={1}
 			direction={{ base: 'column', md: 'row' }}
 			color={'black'}
-			pb={8}
+			alignContent={'center'}
+			justify={'center'}
+			alignSelf={'center'}
+			p={8}
 		>
 			<Image
 				borderRadius={200}
