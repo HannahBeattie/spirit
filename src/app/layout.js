@@ -4,8 +4,8 @@ import Header from './base/components/Header'
 import { Providers } from './providers'
 
 export const metadata = {
-	title: 'Real estate',
-	description: 'Real estate',
+	title: 'Jemmas Facepainting and babysitting',
+	description: 'Jemmas Facepainting and babysitting',
 }
 
 export default function RootLayout({ children }) {

@@ -1,24 +1,21 @@
-import { Container, Heading, Spacer, Text, VStack } from '@chakra-ui/react'
+import { Container, Heading, List, ListItem, Spacer, Text, VStack } from '@chakra-ui/react'
 import React from 'react'
 
 function Intro() {
 	return (
 		<VStack color={'black'} p={8}>
-			<Heading>A title here</Heading>
+			<Heading fontFamily={'Caveat'}>Planning an event?</Heading>
 			<Spacer />
-			<Container fontWeight={500}>
-				<VStack flex={1} align={'stretch'}>
-					<Text>
-						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-						doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-						veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
-						ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-						consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
-						porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-						adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
-						dolore magnam aliquam quaerat voluptatem.{' '}
-					</Text>
-				</VStack>
+			<Container fontFamily={'Poppins'} fontWeight={400}>
+				<List>
+					<ListItem>* Facepainting</ListItem>
+					<ListItem>* Baby bumps</ListItem>
+					<ListItem>* Uv reactive glow paints</ListItem>
+					<ListItem>* Christmas parties</ListItem>
+					<ListItem>* Halloween parties</ListItem>
+					<ListItem>* Birthday parties</ListItem>
+					<ListItem>* Stag dos and hens nights with some cheeky art available </ListItem>
+				</List>
 			</Container>
 			<Spacer />
 		</VStack>
