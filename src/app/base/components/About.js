@@ -4,7 +4,7 @@ function About() {
 	return (
 		<Stack
 			width={'100vw'}
-			bg={'yellow.500'}
+			bg={'gray.100'}
 			alignItems={'center'}
 			flex={1}
 			direction={{ base: 'column', md: 'row' }}
@@ -17,7 +17,7 @@ function About() {
 			<Image
 				borderRadius={200}
 				shadow={'xl'}
-				maxW={{ base: 200, md: 300 }}
+				maxW={{ base: 200, md: 250 }}
 				alt='Photo of Jemma'
 				src='/jemma.jpg'
 			/>
@@ -25,7 +25,9 @@ function About() {
 			<HStack>
 				<VStack flex={1}>
 					<Container color={'black'} fontWeight={500}>
-						<Heading fontFamily={'Caveat'}>Meet Jemma!</Heading>
+						<Heading fontFamily={'Caveat'} pb={4} color={'yellow.500'}>
+							Meet Jemma!
+						</Heading>
 
 						<Text fontFamily={'Poppins'} fontWeight={400}>
 							Your go-to for peace of mind and fun-filled events! With With years of
