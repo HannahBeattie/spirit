@@ -31,9 +31,10 @@ function Contact() {
 
 				<VStack alignItems={'start'} pb={10} px={8}>
 					<Text
-						fontSize={{ base: '3xl', md: 'xl' }}
-						fontFamily={'poppins'}
-						color={'gray.500'}
+						fontSize={{ base: '3xl', md: '3xl' }}
+						fontFamily={'caveat'}
+						color={'yellow.400'}
+						fontWeight={600}
 						pb={2}
 					>
 						Get in touch!

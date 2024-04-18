@@ -14,7 +14,6 @@ const images = [
 	{ src: '/gallery/5.jpg', alt: 'Body painting' },
 	{ src: '/gallery/6.jpg', alt: 'Face Painted Child 4' },
 	{ src: '/gallery/7.jpg', alt: 'Face Painted Child 4' },
-	{ src: '/gallery/8.jpg', alt: 'Face Painted Child 4' },
 ]
 
 function InfiniteCarousel() {
