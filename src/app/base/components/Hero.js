@@ -16,7 +16,7 @@ function Hero() {
 			color={'black'}
 		>
 			<VStack overflow={'hidden'}>
-				<Image src={'/banner.jpg'} alt='photos of face painted children'></Image>
+				<Image src={'/banner2.jpg'} alt='photos of face painted children'></Image>
 			</VStack>
 		</Stack>
 	)
