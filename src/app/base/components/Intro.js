@@ -23,7 +23,7 @@ function Intro() {
 				<List>
 					<ListItem>* Facepainting</ListItem>
 					<ListItem>* Baby bumps</ListItem>
-					<ListItem>* Uv reactive glow paints</ListItem>
+					<ListItem>* UV reactive glow paints</ListItem>
 					<ListItem>* Christmas parties</ListItem>
 					<ListItem>* Halloween parties</ListItem>
 					<ListItem>* Birthday parties</ListItem>

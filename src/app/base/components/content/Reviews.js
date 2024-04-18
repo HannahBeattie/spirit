@@ -18,9 +18,9 @@ const images = [
 	},
 	{ txt: 'Jemma is amazing 😍 Nothing more i can say', auth: 'Leah Marie Kerr' },
 	{ txt: 'Jemma is amazing, her artwork is gorgeous ❤', auth: 'Sam Sam' },
-	{ txt: 'what a awesome Lady. did such a good job', auth: 'Terri Cherie' },
+	{ txt: 'What a awesome Lady. Did such a good job', auth: 'Terri Cherie' },
 	{
-		txt: 'absolutely reccomend, did a amazing job with kiddies and adults',
+		txt: 'Absolutely reccomend, did a amazing job with kiddies and adults',
 		auth: 'Todd Kaspers',
 	},
 	{

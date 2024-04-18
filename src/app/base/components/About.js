@@ -29,15 +29,15 @@ function About() {
 						</Heading>
 
 						<Text fontFamily={'Poppins'} fontWeight={400}>
-							Your go-to for peace of mind and fun-filled events! With With years of
-							police vetting and first aid training under her belt, Jemma brings
-							safety and security to every occasion.
+							Your go-to for peace of mind and fun-filled events! With years of police
+							vetting and first aid training under her belt, Jemma brings safety and
+							security to every occasion.
 						</Text>
-						<Text fontFamily={'Poppins'} fontWeight={400}>
+						<Text fontFamily={'Poppins'} fontWeight={400} mt={4}>
 							But that&apos;s not all – her artistic flair shines through as she
 							transforms little faces and adult faces into works of art. Whether you
-							need a trustworthy babysitter or a talented face painter, Jemmas got you
-							covered, ensuring both safety and smiles at every turn.
+							need a trustworthy babysitter or a talented face painter, Jemma&apos;s
+							got you covered, ensuring both safety and smiles at every turn.
 						</Text>
 					</Container>
 					<Spacer />

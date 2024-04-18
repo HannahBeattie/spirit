@@ -41,7 +41,7 @@ function Contact() {
 						Get in touch!
 					</Text>
 					<CopyToClipboardButton />
-					<Link href={'mailto:emma_b_findlay@hotmail.com'} legacyBehavior>
+					<Link href={'mailto:emma_b_findlay@hotmail.com'}>
 						<Button bg={'gray.900'} _hover={{ bg: 'gray.700' }}>
 							<HStack>
 								<MdEmail />
@@ -52,22 +52,20 @@ function Contact() {
 						</Button>
 					</Link>
 
-					<Link isExternal target='_blank'>
-						<NextLink
-							href={
-								'https://www.facebook.com/jemmasfacepaintingandbabysitting/photos'
-							}
-							legacyBehavior
-							passHref
-						>
+					<NextLink
+						href={'https://www.facebook.com/jemmasfacepaintingandbabysitting/photos'}
+						legacyBehavior
+						passHref
+					>
+						<Link isExternal target='_blank'>
 							<Button bg={'gray.900'} _hover={{ bg: 'gray.700' }}>
 								<HStack>
 									<FaFacebook />
 									<Text fontFamily={'poppins'}>facebook</Text>
 								</HStack>
 							</Button>
-						</NextLink>
-					</Link>
+						</Link>
+					</NextLink>
 				</VStack>
 			</HStack>
 		</Center>
