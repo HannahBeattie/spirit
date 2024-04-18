@@ -5,7 +5,7 @@ function Intro() {
 	return (
 		<VStack color={'black'} p={8}>
 			<Heading
-				fontSize={{ base: '3xl', md: '3xl' }}
+				fontSize={{ base: '3xl', md: '4xl' }}
 				fontFamily={'Caveat'}
 				color={'yellow.500'}
 			>
