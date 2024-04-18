@@ -8,6 +8,8 @@ import InfiniteCarousel from './base/components/InfinateScroll'
 import Intro from './base/components/Intro'
 import Contact from './base/components/content/Contact'
 import Reviews from './base/components/content/Reviews'
+import { MdContactPage } from 'react-icons/md'
+import Footer from './base/components/Footer'
 
 export default function Home() {
 	const myRef = useRef(null)
@@ -45,15 +47,15 @@ export default function Home() {
 					position={'fixed'}
 					bottom={8}
 					right={4}
-					bg={'gray.900'}
+					bg={'yellow.500'}
 					_hover={{ bg: 'gray.700' }}
 					color={'white'}
 					onClick={executeScroll}
 					fontFamily={'Caveat'}
+					borderRadius={200}
 				>
 					<HStack>
 						<Text>Contact</Text>
-						<FaDownLong color='white' />
 					</HStack>
 				</Button>
 			)}
@@ -64,6 +66,7 @@ export default function Home() {
 			<div ref={myRef}>Element to scroll to</div>
 
 			<Contact />
+			<Footer />
 		</VStack>
 	)
 }

@@ -89,7 +89,7 @@ function Header() {
 							fontSize={{ lg: 'xl' }}
 							fontFamily={'poppins'}
 						>
-							<i>Make your events special!</i>
+							<i>Make your events extra special!</i>
 						</Text>
 					</HStack>
 				</VStack>

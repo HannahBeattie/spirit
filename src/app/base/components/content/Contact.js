@@ -20,7 +20,7 @@ import CopyToClipboardButton from '../../CoppyToClipboard'
 
 function Contact() {
 	return (
-		<Center pb={6}>
+		<Center pb={8}>
 			<VStack alignItems={'start'}>
 				<Text
 					fontSize={{ base: '3xl', md: 'xl' }}
