@@ -46,7 +46,7 @@ function Contact() {
 							<HStack>
 								<MdEmail color='white' />
 								<Text fontFamily={'poppins'} color='white'>
-									email: emma_b_findlay@hotmail.com
+									email: jemma_b_findlay@hotmail.com
 								</Text>
 							</HStack>
 						</Button>
