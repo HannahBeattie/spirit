@@ -74,7 +74,7 @@ function Reviews() {
 				initial={{ opacity: 0 }}
 				minH={'9rem'}
 			>
-				<Card bg='gray.200' p={4}>
+				<Card bg='blackAlpha.50' p={4} minW={{ md: 700 }} minH={100}>
 					<Container color={'black'}>
 						<VStack>
 							<Text fontFamily={'caveat'} fontSize={'2xl'}>
