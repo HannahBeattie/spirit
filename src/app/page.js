@@ -1,6 +1,6 @@
 'use client'
 import { useRef, useCallback, useState, useEffect } from 'react'
-import { VStack, IconButton, Button, Tooltip, Text, HStack } from '@chakra-ui/react'
+import { VStack, IconButton, Button, Tooltip, Text, HStack, Image } from '@chakra-ui/react'
 import { FaDownLong } from 'react-icons/fa6'
 import Contact from './base/components/content/Contact'
 import Hero from './base/components/Hero'
@@ -59,6 +59,7 @@ export default function Home() {
 			<InfiniteCarousel />
 			{/* Element to scroll to */}
 			<div ref={myRef}>Element to scroll to</div>
+
 			<Contact />
 		</VStack>
 	)
