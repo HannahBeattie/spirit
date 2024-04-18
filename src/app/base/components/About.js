@@ -24,7 +24,7 @@ function About() {
 			<HStack>
 				<VStack flex={1}>
 					<Container color={'black'} fontWeight={500}>
-						<Heading fontFamily={'Caveat'} pb={4} color={'yellow.500'}>
+						<Heading fontFamily={'Caveat'} pb={4} color={'98ba8a'}>
 							Meet Jemma!
 						</Heading>
 
