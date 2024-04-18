@@ -61,6 +61,7 @@ function InfiniteCarousel() {
 				transform='translateY(-50%)'
 				zIndex='2'
 				onClick={() => paginate(-1)}
+				borderRadius={200}
 				bg={'gray.900'}
 			/>
 			<MotionBox
@@ -94,6 +95,7 @@ function InfiniteCarousel() {
 				right='10px'
 				top='50%'
 				bg={'gray.900'}
+				borderRadius={200}
 				transform='translateY(-50%)'
 				zIndex='2'
 				onClick={() => paginate(1)}
