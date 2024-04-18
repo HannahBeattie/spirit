@@ -3,6 +3,7 @@ import { Box, Image, IconButton, VStack, Text, Container, Card } from '@chakra-u
 import { motion, useAnimation } from 'framer-motion'
 import { useState, useEffect } from 'react'
 import { ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons'
+import { FaQuoteLeft } from 'react-icons/fa6'
 
 const MotionBox = motion(Box)
 
@@ -15,7 +16,7 @@ const images = [
 		txt: "Jemma was absolutely fantastic at my daughter's birthday party. All the kids and 'big kids' loved their facepaint...Thanks so much Jemma",
 		auth: 'Kate McNabb',
 	},
-	{ txt: 'Jemma is amazing 😍 Nothing more i can say 😁', auth: 'Leah Marie Kerr' },
+	{ txt: 'Jemma is amazing 😍 Nothing more i can say', auth: 'Leah Marie Kerr' },
 	{ txt: 'Jemma is amazing, her artwork is gorgeous ❤', auth: 'Sam Sam' },
 	{ txt: 'what a awesome Lady. did such a good job', auth: 'Terri Cherie' },
 	{
@@ -64,7 +65,7 @@ function Reviews() {
 	}, [])
 
 	return (
-		<Box position='relative' width='100%' overflow='hidden' zIndex={0} py={8}>
+		<Box position='relative' width='100%' overflow='hidden' zIndex={0} bg='yellow.400' p={4}>
 			<MotionBox
 				display='flex'
 				justifyContent='center'
@@ -74,18 +75,19 @@ function Reviews() {
 				initial={{ opacity: 0 }}
 				minH={'9rem'}
 			>
-				<Card bg='yellow.400' p={4} minW={{ md: 700 }} minH={100}>
+				<VStack minW={{ md: 700 }}>
 					<Container color={'black'}>
-						<VStack>
-							<Text fontFamily={'caveat'} fontSize={'2xl'}>
-								&ldquo;{images[page].txt}&rdquo;
+						<VStack minH={300} align={'center'} justify={'center'}>
+							<FaQuoteLeft fontSize={80} color='orange' />
+							<Text fontFamily={'poppins'} fontSize={'2xl'}>
+								{images[page].txt}
 							</Text>
-							<Text color={'gray.600'}>
+							<Text color={'black'}>
 								<i>- {images[page].auth}</i>
 							</Text>
 						</VStack>
 					</Container>
-				</Card>
+				</VStack>
 			</MotionBox>
 		</Box>
 	)

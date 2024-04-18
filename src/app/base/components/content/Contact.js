@@ -7,6 +7,7 @@ import {
 	Heading,
 	IconButton,
 	Image,
+	Link,
 	SimpleGrid,
 	Text,
 	VStack,
@@ -15,7 +16,7 @@ import React from 'react'
 import { FaFacebook, FaPhone } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
 import StyledNextLink from '../../StyledNextLink'
-import Link from 'next/link'
+import NextLink from 'next/link'
 import CopyToClipboardButton from '../../CoppyToClipboard'
 
 function Contact() {
@@ -51,17 +52,21 @@ function Contact() {
 						</Button>
 					</Link>
 
-					<Link
-						href={'https://www.facebook.com/jemmasfacepaintingandbabysitting/photos'}
-						legacyBehavior
-						target='_blank'
-					>
-						<Button bg={'gray.900'} _hover={{ bg: 'gray.700' }}>
-							<HStack>
-								<FaFacebook />
-								<Text fontFamily={'poppins'}>facebook</Text>
-							</HStack>
-						</Button>
+					<Link isExternal target='_blank'>
+						<NextLink
+							href={
+								'https://www.facebook.com/jemmasfacepaintingandbabysitting/photos'
+							}
+							legacyBehavior
+							passHref
+						>
+							<Button bg={'gray.900'} _hover={{ bg: 'gray.700' }}>
+								<HStack>
+									<FaFacebook />
+									<Text fontFamily={'poppins'}>facebook</Text>
+								</HStack>
+							</Button>
+						</NextLink>
 					</Link>
 				</VStack>
 			</HStack>

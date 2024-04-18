@@ -40,6 +40,7 @@ export default function Home() {
 		<VStack as={'main'} maxW={'100%vw'} overflow={'hidden'} spacing={0}>
 			<Hero />
 			<Intro />
+			<Reviews />
 			<About />
 			{isVisible && (
 				<Button
@@ -60,8 +61,8 @@ export default function Home() {
 				</Button>
 			)}
 
-			<Reviews />
 			<InfiniteCarousel />
+
 			{/* Element to scroll to */}
 			<div ref={myRef}>Element to scroll to</div>
 

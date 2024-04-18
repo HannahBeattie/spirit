@@ -51,7 +51,7 @@ function InfiniteCarousel() {
 	// }, [])
 
 	return (
-		<Box position='relative' width='100%' overflow='hidden' zIndex={0} pt={8}>
+		<Box position='relative' width='100%' overflow='hidden' zIndex={0}>
 			<IconButton
 				aria-label='Previous image'
 				icon={<ChevronLeftIcon />}
@@ -79,7 +79,7 @@ function InfiniteCarousel() {
 					height='auto'
 				/>
 				<Image
-					display={{ base: 'none', md: 'flex' }}
+					display={{ base: 'none', lg: 'flex' }}
 					src={images[nextImageIndex(page)].src}
 					alt={images[nextImageIndex(page)].alt}
 					fit='cover'

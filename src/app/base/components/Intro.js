@@ -1,4 +1,4 @@
-import { Container, Heading, List, ListItem, Spacer, Text, VStack } from '@chakra-ui/react'
+import { Container, Divider, Heading, List, ListItem, Spacer, Text, VStack } from '@chakra-ui/react'
 import React from 'react'
 
 function Intro() {
@@ -30,6 +30,7 @@ function Intro() {
 					<ListItem>* Stag dos and hens nights with some cheeky art available </ListItem>
 				</List>
 			</Container>
+
 			<Spacer />
 		</VStack>
 	)

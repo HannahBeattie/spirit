@@ -4,7 +4,6 @@ function About() {
 	return (
 		<Stack
 			width={'100vw'}
-			bg={'gray.100'}
 			alignItems={'center'}
 			flex={1}
 			direction={{ base: 'column', md: 'row' }}
