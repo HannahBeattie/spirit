@@ -11,7 +11,6 @@ const images = [
 	{ src: '/gallery/2.jpg', alt: 'Face Painted Child 2' },
 	{ src: '/gallery/3.jpg', alt: 'Face Painted Child 3' },
 	{ src: '/gallery/4.jpg', alt: 'Face Painted Child 4' },
-	{ src: '/gallery/5.jpg', alt: 'Body painting' },
 	{ src: '/gallery/6.jpg', alt: 'Face Painted Child 4' },
 	{ src: '/gallery/7.jpg', alt: 'Face Painted Child 4' },
 ]
