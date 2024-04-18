@@ -51,7 +51,7 @@ function Header() {
 		// 	animate={hidden ? 'hidden' : 'visible'}
 		// 	transition={{ duration: 0.35, ese: 'easeInOut' }}
 		// >
-		<VStack flex={1} color={'black'}>
+		<VStack flex={1} color={'black'} bg={'gray.50'}>
 			<HStack
 				alignContent={'end'}
 				spacing={4}
@@ -73,22 +73,23 @@ function Header() {
 				</StyledNextLink>
 				<Spacer />
 				<VStack spacing={0}>
-					<Heading
+					<Text
 						fontSize={{ base: 'xl', sm: '3xl', lg: '5xl' }}
 						textAlign={'center'}
-						fontFamily={'Caveat'}
-						color={'gray.300'}
+						fontFamily={'caveat'}
+						color={'purple'}
 					>
-						Jemma&apos;s Facepainting and babysitting
-					</Heading>
-					<Text
-						display={{ base: 'none', md: 'flex' }}
-						fontSize={{ lg: '4xl' }}
-						fontFamily={'Caveat'}
-						color={'gray.500'}
-					>
-						Making life magical
+						Jemma&apos;s Facepainting & Babysitting
 					</Text>
+					<HStack spacing={4} color={'gray.400'}>
+						<Text
+							display={{ base: 'none', md: 'flex' }}
+							fontSize={{ lg: 'xl' }}
+							fontFamily={'poppins'}
+						>
+							<i>Make your events special</i>
+						</Text>
+					</HStack>
 				</VStack>
 				<Spacer />
 
