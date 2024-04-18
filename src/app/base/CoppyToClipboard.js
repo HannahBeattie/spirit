@@ -11,7 +11,7 @@ function CopyToClipboardButton() {
 		<Link href={`tel:${telNoSpace}`}>
 			<Button bg={'gray.900'} _hover={{ bg: 'gray.700' }}>
 				<HStack>
-					<FaPhone />{' '}
+					<FaPhone color='white' />
 					<Text fontFamily={'poppins'} color={'white'}>
 						phone: {phoneNumber}
 					</Text>

@@ -44,8 +44,8 @@ function Contact() {
 					<Link href={'mailto:emma_b_findlay@hotmail.com'}>
 						<Button bg={'gray.900'} _hover={{ bg: 'gray.700' }}>
 							<HStack>
-								<MdEmail />
-								<Text fontFamily={'poppins'}>
+								<MdEmail color='white' />
+								<Text fontFamily={'poppins'} color='white'>
 									email: emma_b_findlay@hotmail.com
 								</Text>
 							</HStack>
@@ -60,8 +60,10 @@ function Contact() {
 						<Link isExternal target='_blank'>
 							<Button bg={'gray.900'} _hover={{ bg: 'gray.700' }}>
 								<HStack>
-									<FaFacebook />
-									<Text fontFamily={'poppins'}>facebook</Text>
+									<FaFacebook color='white' />
+									<Text fontFamily={'poppins'} color='white'>
+										facebook
+									</Text>
 								</HStack>
 							</Button>
 						</Link>

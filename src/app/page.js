@@ -64,7 +64,7 @@ export default function Home() {
 			<InfiniteCarousel />
 
 			{/* Element to scroll to */}
-			<div ref={myRef}>Element to scroll to</div>
+			<div ref={myRef} p={2} />
 
 			<Contact />
 			<Image
