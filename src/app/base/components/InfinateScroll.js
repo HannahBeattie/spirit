@@ -49,7 +49,7 @@ function InfiniteCarousel() {
 	// }, [])
 
 	return (
-		<Box position='relative' width='100%' overflow='hidden'>
+		<Box position='relative' width='100%' overflow='hidden' zIndex={0}>
 			<IconButton
 				aria-label='Previous image'
 				icon={<ChevronLeftIcon />}

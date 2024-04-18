@@ -65,7 +65,7 @@ function Header() {
 					<VStack spacing={1}>
 						<Image
 							borderRadius={'200'}
-							h={{ base: '3rem', lg: '8rem' }}
+							h={{ base: '3rem', sm: '5rem', md: '5rem', lg: '8rem' }}
 							alt={'logo'}
 							src={'/logo.jpg'}
 						></Image>
@@ -74,7 +74,7 @@ function Header() {
 				<Spacer />
 				<VStack spacing={0}>
 					<Heading
-						fontSize={{ base: 'xl', lg: '5xl' }}
+						fontSize={{ base: 'xl', sm: '3xl', lg: '5xl' }}
 						textAlign={'center'}
 						fontFamily={'Caveat'}
 						color={'gray.300'}
@@ -91,6 +91,7 @@ function Header() {
 					</Text>
 				</VStack>
 				<Spacer />
+
 				{/* <Menu>
 					<MenuButton
 						pos={'absolute'}

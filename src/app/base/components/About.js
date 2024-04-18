@@ -1,18 +1,4 @@
-import {
-	Avatar,
-	Button,
-	Card,
-	Container,
-	HStack,
-	Heading,
-	Image,
-	Spacer,
-	Stack,
-	Text,
-	VStack,
-} from '@chakra-ui/react'
-import { SP } from 'next/dist/shared/lib/utils'
-import React from 'react'
+import { Container, HStack, Heading, Image, Spacer, Stack, Text, VStack } from '@chakra-ui/react'
 
 function About() {
 	return (

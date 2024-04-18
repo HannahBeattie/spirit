@@ -1,6 +1,6 @@
 import { VStack } from '@chakra-ui/react'
-import './globals.css'
 import Header from './base/components/Header'
+import './globals.css'
 import { Providers } from './providers'
 
 export const metadata = {
@@ -24,6 +24,7 @@ export default function RootLayout({ children }) {
 						overflow={'hidden'}
 					>
 						<Header />
+
 						{children}
 					</VStack>
 				</Providers>
