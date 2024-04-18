@@ -51,7 +51,7 @@ function Header() {
 		// 	animate={hidden ? 'hidden' : 'visible'}
 		// 	transition={{ duration: 0.35, ese: 'easeInOut' }}
 		// >
-		<VStack flex={1} color={'black'} bg={'gray.50'}>
+		<VStack flex={1} color={'black'} bg={'yellow.400'}>
 			<HStack
 				alignContent={'end'}
 				spacing={4}
@@ -64,6 +64,7 @@ function Header() {
 				<StyledNextLink href={'/'}>
 					<VStack spacing={1}>
 						<Image
+							shadow={'xl'}
 							borderRadius={'200'}
 							h={{ base: '3rem', sm: '5rem', md: '5rem', lg: '8rem' }}
 							alt={'logo'}
@@ -77,17 +78,18 @@ function Header() {
 						fontSize={{ base: 'xl', sm: '3xl', lg: '5xl' }}
 						textAlign={'center'}
 						fontFamily={'caveat'}
-						color={'purple'}
+						color={'white'}
+						fontWeight={600}
 					>
 						Jemma&apos;s Facepainting & Babysitting
 					</Text>
-					<HStack spacing={4} color={'gray.400'}>
+					<HStack spacing={4} color={'white'} fontWeight={600}>
 						<Text
 							display={{ base: 'none', md: 'flex' }}
 							fontSize={{ lg: 'xl' }}
 							fontFamily={'poppins'}
 						>
-							<i>Make your events special</i>
+							<i>Make your events special!</i>
 						</Text>
 					</HStack>
 				</VStack>
