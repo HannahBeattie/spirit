@@ -73,10 +73,11 @@ function InfiniteCarousel() {
 					src={images[page].src}
 					alt={images[page].alt}
 					fit='cover'
-					width='50%'
+					width={{ lg: '50%' }}
 					height='auto'
 				/>
 				<Image
+					display={{ base: 'none', md: 'flex' }}
 					src={images[nextImageIndex(page)].src}
 					alt={images[nextImageIndex(page)].alt}
 					fit='cover'
