@@ -53,7 +53,7 @@ function Contact() {
 					</Link>
 
 					<NextLink
-						href={'https://www.facebook.com/jemmasfacepaintingandbabysitting/photos'}
+						href={'https://www.facebook.com/jemmasfacepaintingandbabysitting'}
 						legacyBehavior
 						passHref
 					>
