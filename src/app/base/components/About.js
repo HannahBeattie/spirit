@@ -39,6 +39,10 @@ function About() {
 							need a trustworthy babysitter or a talented face painter, Jemma&apos;s
 							got you covered, ensuring both safety and smiles at every turn.
 						</Text>
+						<Text fontFamily={'Poppins'} fontWeight={400} mt={4}>
+							Jemma is based Upper Hutt, but able to travel within the wellington,
+							wairarapa and kapiti coast areas.
+						</Text>
 					</Container>
 					<Spacer />
 				</VStack>
