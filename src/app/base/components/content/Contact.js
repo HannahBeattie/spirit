@@ -12,7 +12,7 @@ import {
 	VStack,
 } from '@chakra-ui/react'
 import React from 'react'
-import { FaPhone } from 'react-icons/fa'
+import { FaFacebook, FaPhone } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
 import StyledNextLink from '../../StyledNextLink'
 import Link from 'next/link'
@@ -35,6 +35,19 @@ function Contact() {
 						<HStack>
 							<MdEmail />
 							<Text fontFamily={'poppins'}>email: emma_b_findlay@hotmail.com</Text>
+						</HStack>
+					</Button>
+				</Link>
+
+				<Link
+					href={'https://www.facebook.com/jemmasfacepaintingandbabysitting/photos'}
+					legacyBehavior
+					target='_blank'
+				>
+					<Button bg={'gray.900'} _hover={{ bg: 'gray.700' }}>
+						<HStack>
+							<FaFacebook />
+							<Text fontFamily={'poppins'}>facebook</Text>
 						</HStack>
 					</Button>
 				</Link>

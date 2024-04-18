@@ -1,12 +1,13 @@
 'use client'
-import { useRef, useCallback, useState, useEffect } from 'react'
-import { VStack, IconButton, Button, Tooltip, Text, HStack, Image } from '@chakra-ui/react'
+import { Button, HStack, Text, VStack } from '@chakra-ui/react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import { FaDownLong } from 'react-icons/fa6'
-import Contact from './base/components/content/Contact'
-import Hero from './base/components/Hero'
-import Intro from './base/components/Intro'
 import About from './base/components/About'
+import Hero from './base/components/Hero'
 import InfiniteCarousel from './base/components/InfinateScroll'
+import Intro from './base/components/Intro'
+import Contact from './base/components/content/Contact'
+import Reviews from './base/components/content/Reviews'
 
 export default function Home() {
 	const myRef = useRef(null)
@@ -56,6 +57,8 @@ export default function Home() {
 					</HStack>
 				</Button>
 			)}
+
+			<Reviews />
 			<InfiniteCarousel />
 			{/* Element to scroll to */}
 			<div ref={myRef}>Element to scroll to</div>
