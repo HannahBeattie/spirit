@@ -1,5 +1,5 @@
 'use client'
-import { Button, HStack, Text, VStack } from '@chakra-ui/react'
+import { Button, HStack, Image, Text, VStack } from '@chakra-ui/react'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { FaDownLong } from 'react-icons/fa6'
 import About from './base/components/About'
@@ -66,6 +66,12 @@ export default function Home() {
 			<div ref={myRef}>Element to scroll to</div>
 
 			<Contact />
+			<Image
+				display={{ base: 'flex', md: 'none' }}
+				maxH={'30rem'}
+				alt={'child facepainted as a dino'}
+				src={'/dino.png'}
+			/>
 			<Footer />
 		</VStack>
 	)
