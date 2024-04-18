@@ -7,6 +7,13 @@ function Intro() {
 			<Heading fontFamily={'Caveat'}>Planning an event?</Heading>
 			<Spacer />
 			<Container fontFamily={'Poppins'} fontWeight={400}>
+				<Text pb={4}>
+					Welcome to Jemma&apos;s Facepainting and Babysitting – where your party and
+					childcare needs come to life with a splash of color! Based in Wellington,
+					Jemma&apos;s offers a dual delight of professional face and body painting
+					alongside top-notch babysitting services, perfect for any event or gathering.
+				</Text>
+
 				<List>
 					<ListItem>* Facepainting</ListItem>
 					<ListItem>* Baby bumps</ListItem>
