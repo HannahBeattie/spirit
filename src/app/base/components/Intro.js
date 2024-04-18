@@ -4,7 +4,11 @@ import React from 'react'
 function Intro() {
 	return (
 		<VStack color={'black'} p={8}>
-			<Heading fontSize={{ base: '3xl', md: '4xl' }} fontFamily={'Caveat'} color={'98ba8a'}>
+			<Heading
+				fontSize={{ base: '3xl', md: '4xl' }}
+				fontFamily={'Caveat'}
+				color={'yellow.500'}
+			>
 				Planning an event?
 			</Heading>
 			<Spacer />

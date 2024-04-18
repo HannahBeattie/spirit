@@ -51,7 +51,7 @@ function Header() {
 		// 	animate={hidden ? 'hidden' : 'visible'}
 		// 	transition={{ duration: 0.35, ese: 'easeInOut' }}
 		// >
-		<VStack flex={1} color={'black'} bg={'#98ba8a'}>
+		<VStack flex={1} color={'black'} bg={'yellow.400'}>
 			<HStack
 				alignContent={'end'}
 				spacing={4}

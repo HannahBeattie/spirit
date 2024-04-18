@@ -24,7 +24,7 @@ function About() {
 			<HStack>
 				<VStack flex={1}>
 					<Container color={'black'} fontWeight={500}>
-						<Heading fontFamily={'Caveat'} pb={4} color={'98ba8a'}>
+						<Heading fontFamily={'Caveat'} pb={4} color={'yellow.500'}>
 							Meet Jemma!
 						</Heading>
 
@@ -40,7 +40,7 @@ function About() {
 							got you covered, ensuring both safety and smiles at every turn.
 						</Text>
 						<Text fontFamily={'Poppins'} fontWeight={400} mt={4}>
-							Jemma is based Upper Hutt, but able to travel within the wellington,
+							Jemma is based in Upper Hutt, but able to travel within the wellington,
 							wairarapa and kapiti coast areas.
 						</Text>
 					</Container>

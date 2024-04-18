@@ -48,7 +48,7 @@ export default function Home() {
 					position={'fixed'}
 					bottom={8}
 					right={4}
-					bg={'#98ba8a'}
+					bg={'yellow.500'}
 					_hover={{ bg: 'gray.700' }}
 					color={'white'}
 					onClick={executeScroll}

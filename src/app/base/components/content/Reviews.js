@@ -65,7 +65,7 @@ function Reviews() {
 	}, [])
 
 	return (
-		<Box position='relative' width='100%' overflow='hidden' zIndex={0} bg='#98ba8a' p={4}>
+		<Box position='relative' width='100%' overflow='hidden' zIndex={0} bg='yellow.400' p={4}>
 			<MotionBox
 				display='flex'
 				justifyContent='center'
@@ -78,7 +78,7 @@ function Reviews() {
 				<VStack minW={{ md: 700 }}>
 					<Container color={'black'}>
 						<VStack minH={300} align={'center'} justify={'center'}>
-							<FaQuoteLeft fontSize={80} color='black' />
+							<FaQuoteLeft fontSize={80} color='orange' />
 							<Text fontFamily={'poppins'} fontSize={'2xl'}>
 								{images[page].txt}
 							</Text>
